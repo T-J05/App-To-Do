@@ -1,7 +1,7 @@
-// index.js
-import { createElement, render, createStore } from './src/frame.js'; // Ruta relativa a simpleJSX.js
+
+import { createElement, render, createStore } from '../frame.js'; 
 console.log(createStore, "haso")
-// Ahora puedes usar createElement, render, y createStore
+
 const reducer = (state = { todos: [] }, action) => {
     switch (action.type) {
         case 'ADD_TODO':

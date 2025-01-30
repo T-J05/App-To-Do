@@ -1,6 +1,6 @@
 
 import { createElement, render, createStore } from '../frame.js'; 
-console.log(createStore, "haso")
+
 
 const reducer = (state = { todos: [] }, action) => {
     switch (action.type) {

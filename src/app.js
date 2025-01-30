@@ -18,7 +18,7 @@ const renderApp = () => {
 
     const app = createElement(
         'div',
-        null,
+        {class: "divPrincipal"},
         createElement('h1', null, 'Lista de Tareas'),
         createElement(
             'ul',
